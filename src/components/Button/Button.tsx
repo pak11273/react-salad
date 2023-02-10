@@ -1,16 +1,12 @@
-import React from 'react';
-export interface ButtonProps {
-  label?: string;
-  text?: string;
-  onPress: () => void;
+import React, { FC, PropsWithChildren } from 'react';
+
+interface ButtonProps {
+  onClick(): void;
 }
 
-const Button: React.FC<ButtonProps> = ({ onPress, label }) => {
-  return (
-    <button onClick={() => onPress()}>
-      {label === null || label === undefined ? 'Submit' : label}
-    </button>
-  );
-};
+const Button: FC<ButtonProps & PropsWithChildren<{}>> = ({
+  onClick,
+  children
+}) => <button onClick={onClick}>{children}</button>;
 
 export default Button;
