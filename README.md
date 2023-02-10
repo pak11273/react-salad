@@ -6,10 +6,13 @@
 
 ### Install
 
-`npm install @react-salad/react`
+<code>
+npm install @react-salad/react
+</code>
 
-`yarn add @react-salad/react`
-
+<code>
+yarn add @react-salad/react
+</code>
 
 ## Contributing
 
