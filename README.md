@@ -1,3 +1,3 @@
-# react-salad
-Another headless React components library
+## React Salad 
 
+A React headlesss components library
