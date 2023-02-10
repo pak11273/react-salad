@@ -10,3 +10,10 @@
 ## resume
 
 * [resume](https://youtu.be/XHQi5a0TmMc?t=2016)
+
+### how to publish newer versions
+
+* make changes
+* change semantic version in package.json
+* run ```yarn rollup command```
+* run ```npm publish```

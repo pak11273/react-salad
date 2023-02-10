@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './Button.css';
 
 interface ButtonProps {
-  label?: string
-  text?: string
-  onPress: () => void
+  label?: string;
+  text?: string;
+  onPress: () => void;
 }
 
 const Button: React.FC<ButtonProps> = ({ onPress, label }) => {
@@ -11,7 +12,7 @@ const Button: React.FC<ButtonProps> = ({ onPress, label }) => {
     <button type="button" onClick={() => onPress()}>
       {label === null ? 'Submit' : label}
     </button>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;
