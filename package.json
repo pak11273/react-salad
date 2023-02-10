@@ -20,8 +20,7 @@
     "url": "git+https://github.com/pak11273/react-salad.git"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/pak11273"
+    "access": "public"
   },
   "scripts": {
     "rollup": "rollup -c",
